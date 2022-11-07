@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+#root {
+  background-image: url('./pexels-scott-webb-593158.jpeg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  font-family: 'BentonSans, Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+  /* max-width: auto;
+  margin: center; */
+  width: 100%;
+  height: auto;
+  float: center;
+  margin: auto;
+  max-width: auto;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header header'
+  'navbar navbar navbar navbar navbar  navbar navbar'
+  'mainsearch mainsearch mainsearch mainsearch mainsearch mainsearch main SearchBar'
+  'footer footer footer footer footer footer footer';
+  
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+  grid-area: header;
+  padding: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar{
+  grid-area: navbar;
+  /*background-color: aquamarine;*/
+  padding: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+.mainsearch{
+  grid-area: mainsearch;
+  padding: 4em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.footer{
+  grid-area: footer;
+  padding: 2em;
+
 }

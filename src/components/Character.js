@@ -26,6 +26,7 @@ function Character({character}) {
 
   return (
     <>
+
      <div className="character-container">
       
           <h1 className='title'>{character.name} - ({character.biography['full-name']}) </h1>

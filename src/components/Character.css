@@ -1,11 +1,11 @@
 .character-container {
     display: grid;
-    position: flex;
+    position: grid;
     background-color: #999;
     color: white;
     padding: 10px;
     margin: 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: BentonSans, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-items: left;
     
 }
@@ -45,6 +45,7 @@ width: 20rem;
 .character-appearance{
     background-color: #666;
     width: 20rem;
+    align-items: right;
 }
 
 .character-stats{

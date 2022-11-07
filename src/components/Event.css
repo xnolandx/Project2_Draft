@@ -2,11 +2,12 @@
     display: grid;
     position: flex;
     background-color: #999;
-    color: white;
+    color: rgb(142, 136, 136);
     padding: 10px;
     margin: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-items: left;
+    
     
 }
 
