@@ -6,45 +6,36 @@
   font-family: 'BentonSans, Cambria, Cochin, Georgia, Times, Times New Roman, serif';
   /* max-width: auto;
   margin: center; */
-  width: 100%;
-  height: auto;
-  float: center;
-  margin: auto;
-  max-width: auto;
 
 }
 
 .top-container {
   display: grid;
   grid-template-areas:
-  'header header header header header header header'
-  'navbar navbar navbar navbar navbar  navbar navbar'
-  'mainsearch mainsearch mainsearch mainsearch mainsearch mainsearch main SearchBar'
-  'footer footer footer footer footer footer footer';
+  'header'
+  'navbar'
+  ' mainsearch '
+  'footer ';
+  padding: 2em;
   
 
 
 }
 
 .header{
-  grid-area: header;
   padding: 2em;
 }
 
 .navbar{
-  grid-area: navbar;
-  /*background-color: aquamarine;*/
   padding: 2em;
 }
 
 .mainsearch{
-  grid-area: mainsearch;
-  padding: 4em;
+padding: 2em;
 }
 
 
 .footer{
-  grid-area: footer;
-  padding: 2em;
+  padding: 1em;
 
 }

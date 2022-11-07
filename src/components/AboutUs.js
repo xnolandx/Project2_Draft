@@ -15,8 +15,10 @@ function AboutUs() {
       <p>Nefarious Activity          Cyber Crime            Public Corruption           Freedom Fighting           Weapons of Mass Production </p>
       
     </div>
-    <div className="StoryDisinformation">
-      One of the DOMA's 
+    <div className="Storyboards">
+      <div className="StoryDisinformation">
+        The DOMA executes an aggressive disinformation program aimed at 
+      </div>
     </div>
     </>
   )

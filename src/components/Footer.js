@@ -1,7 +1,13 @@
 import React from 'react'
 import './App.css';
 import './Footer.css';
+import styled from 'styled-components';
 
+
+const StyledDiv = styled.div`
+height: 20px;
+width: 20px;
+`
 
 const Footer = () => {
   return (
@@ -12,7 +18,7 @@ const Footer = () => {
              <li>| Team Tron+JFLO |</li>
              <li>| 2022 |</li>
              <li>| About Us |</li>
-             <img src= '../images/240_F_298604468_ytexNAcHAnCBUCXDvoVu2xPAir912Plr.jpeg' alt="" />
+            <StyledDiv><img src={require('../images/TM.jpeg')} alt="" /></StyledDiv> 
             </div>
     </div>
     </>
